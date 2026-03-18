@@ -1,6 +1,8 @@
 # 🕸️ Web Scraping Practice (Python)
 
-This repository contains two small projects to practice **web scraping and working with online data using Python**.
+This repository contains multiple small projects to practice **Python basics and web scraping with online data**.
+
+---
 
 ## 📘 Project 1 — BeautifulSoup Tutorial
 
@@ -24,13 +26,36 @@ File: `Web_Scrape.ipynb`
 
 This notebook applies the same web scraping idea but on **real data from the internet**.
 
-The notebook scrapes data from a website, extracts a table of information, converts it into a **Pandas DataFrame**, cleans the data, and then exports it into a CSV file.
+The notebook:
+- Scrapes data from a website
+- Extracts tables and useful information
+- Converts data into a **Pandas DataFrame**
+- Cleans the data
+- Exports it into a CSV file
 
 Example output:
-Data.csv
+`Data.csv`
 
+This workflow is commonly used in **data collection and analysis projects**.
 
-This type of workflow is commonly used in **data collection and data analysis projects**.
+---
+
+## 🤖 Project 3 — Selenium Automation
+
+File: `seleniumTUT.py`
+
+This project uses **Selenium** to automate browser actions and scrape images from Google.
+
+In this script I practiced:
+- Automating browser using Selenium WebDriver
+- Searching on Google automatically
+- Navigating to the Images section
+- Scrolling the page to load more results
+- Extracting image URLs
+- Saving the results into a CSV file using Pandas
+
+Example output:
+`images_google.csv`
 
 ---
 
@@ -39,6 +64,7 @@ This type of workflow is commonly used in **data collection and data analysis pr
 - Python
 - Requests
 - BeautifulSoup
+- Selenium
 - Pandas
 - Jupyter Notebook
 - remove.bg API
